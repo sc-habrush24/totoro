@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>최솔/60191697/기초웹프로그래밍 과제 #2</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Geneva, Tahoma, sans-serif;
+            /*font-family:Verdana, Geneva, Tahoma, sans-serif*/
+        }
+        div.bg {
+            width: 600px;
+            height: 1000px;
+            background-image : url("./totoro.jpg");
+            text-align : center;
+        }
+        div.bg:hover {
+            background-image : url("./totoro2.jpg")
+        }
+
+        #sub_name {
+            padding-top:50px;
+            padding-bottom:20px;
+        }
+        h3 {
+            color:whitesmoke;
+        }
+
+        div.title > h2,h1,h6 {
+            display: inline;
+            
+            color : mediumvioletred
+        }
+        div.title > h1 {
+            font-size : 60px;
+        }
+        div.title > h2 {
+            font-size : 35px;
+            margin-right: 10px;
+        }
+        div.creator_info{
+            padding-top : 20px;
+            padding-bottom: 5px;
+        }
+        div.creator_info >h3,h4 {
+            display: inline;
+            color: whitesmoke;
+            margin-right: 10px;
+        }
+        div.pr > h3{
+            color:burlywood;
+            padding: 10px;
+        }
+        #summary {
+            color: gray;
+            font-size:10px;
+            padding-bottom: 15px;
+        }
+        nav>div.menu {
+            margin: 30px;
+            background-color:aliceblue;
+            opacity:0.6;
+            display:block; 
+            font-size:20px;
+        }
+        a {
+            text-decoration:none;
+            color : black;
+        }
+        a:hover{
+            color:darkgoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <header>
+        <h3 id ="sub_name">전 세계를 사로잡은 환상적인 여행!</h3>
+        <div class="title">
+            <h2>이웃집</h2><h1>토토로</h1><img src="./small.png" width= 80px height= 80px><br>
+            <h6>TOTORO</h6>
+        </div>
+        <div class="creator_info">
+            <h4>원작/각본/감독</h4><h3>미야자키 하야오</h3>
+        </div>
+        <p id="summary">
+          제작 토쿠마 아스요시 프로듀서 하라 토오루 작화 감독 사토 요시하루 미술 감독 오가 카즈오<br>
+          음악 히사이시 조 제작 스튜디오 지브리 수입 대원미디어(주) 
+          제공배급 (주)스마일이엔티 공동배급 씨네그루(주)키다리이엔티
+        </p>
+        </header>
+        <div class="pr">
+            <h3>시대를 초월한 명작이 선사하는 가장 행복한 경험!</h3>
+        </div>
+        <nav>
+            <div class="menu">
+                <a href="intro.html" target="center">intro</a>
+                &nbsp;
+                <a href="sys.html" target="center">sysnopsis</a> 
+                &nbsp;
+                <a href="char.jpg" target="center">characters</a>
+            </div>
+        </nav>
+        <section>
+            <iframe name="center" frameborder= 0 scrolling=no width = "500px" height="400px"></iframe>
+        </section>
+        
+        
+         
+    </div>
+   
+    
+</body>
+</html>
